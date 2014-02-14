@@ -22,7 +22,7 @@ import org.dozer.MappingException;
 
 /**
  *
- * @author x076108
+ * @author Devendra Singh
  */
 
 public class InvoiceSender {

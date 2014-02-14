@@ -36,7 +36,7 @@ import net.oauth.signature.RSA_SHA1;
 
 /**
  *
- * @author x076108
+ * @author Devendra Singh
  */
 public class XeroAPIConnector {
 

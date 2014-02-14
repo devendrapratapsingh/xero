@@ -8,7 +8,7 @@ package com.xero.domain;
 
 /**
  *
- * @author x076108
+ * @author Devendra Singh
  */
 public enum InvoiceStatus {
     PAID

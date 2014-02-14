@@ -10,7 +10,7 @@ import org.dozer.Mapping;
 
 /**
  *
- * @author x076108
+ * @author Devendra Singh
  */
 public class Customer {
     @Mapping("firstName")
