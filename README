@@ -1,1 +1,26 @@
-To run this build , JDK 1.7 is required.
+Objective:
+
+This code demonstrates the basic integration of XeroAPI with a private application which is registered with Xero.
+
+Prerequisites:
+
+1.JDK1.7
+2.OAuth API
+3.Xero API Invoice endpoint
+4.Dozer dependency
+5.Xpath dependency
+6.Maven
+7.Jaxb2 plugin to generate the source from Xero schemas
+
+Description:
+
+To integrate invoice method with Xero. I have created few domain POJO as Invoice, InvoiceStatus,LineItem, CurrencyEnum and Customer. These are very useful to create an invoice and map to Xero Invoice and push to their repository.
+
+To map private (Specific Application) invoice to Xero Invoice I used Dozer mapper by which it can easily map.
+
+To check the valid response I used xpath so that I can extract valid response status from Xero respponse.
+
+I have placed my private key in the properties file and certification is valid for 1 year.
+
+Restriction:
+There are only 5 invoices allowed to push in free account which I created. So if count is available then the test will get successful else fail.
